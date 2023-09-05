@@ -1,5 +1,30 @@
 # Turtlesim PID Controllers
 
+Repository for PID controller written in `python` for controlling the Turtle from the Turtlesim to move to any given location in various ways
+
+## Requirements to run code
+
+### Setup
+
+- On Ubuntu, install `ROS1` using the ROS Documentation available online
+- Run the following commands in 3 separate terminals
+
+```bash
+roscore
+rosrun turtlesim turtlesim_node
+rosrun rqt_graph rqt_graph
+```
+
+- To run the python file, make sure you have python 3.xx installed, then make the installed python file an executable by
+
+```bash
+chmod +x <name>.py
+```
+
+- Now simply run the executable file using the `./<name>.py` command
+
+## Explanations
+
 ### Python Code Overview
 
 The basic structure of both scripts is as follows:
